@@ -53,7 +53,7 @@ To use Phly, you need to have `yt_dlp` and `youtube_dl` installed on your system
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/phly.git
+    git clone https://github.com/phlydev/PHLY.git
     cd phly
     ```
 
@@ -65,17 +65,20 @@ To use Phly, you need to have `yt_dlp` and `youtube_dl` installed on your system
 
 ## Contributing
 
-Feel free to submit issues and pull requests to improve Phly.
+Feel free to submit issues and suggestions to improve Phly.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Phly is provided under the following license:
+Phly - Pornhub Downloader
 
-## Disclaimer
+Phly is free to use under the following conditions:
 
-Phly is intended for personal use only. Please respect the terms of service of Pornhub and other websites.
+    You may use Phly for personal purposes only.
+    You are not permitted to modify, sell, or redistribute Phly in any form.
+    You may not claim Phly as your own work.
+    You may not incorporate any part of Phly into your own projects.
+    You are not allowed to remove or alter any copyright or proprietary notices from Phly.
+    You are not allowed to use Phly for any commercial purposes.
 
----
-
-Enjoy using Phly! If you have any questions or need further assistance, please open an issue on GitHub.
-
+Any violation of these terms will result in revocation of your right to use Phly.
