@@ -1,6 +1,6 @@
 # Phly - Pornhub Downloader
 
-Phly is a simple and efficient downloader for Pornhub. This tool leverages `yt_dlp` and `youtube_dl` to facilitate downloading videos from Pornhub seamlessly.
+Phly is a simple and efficient downloader for Pornhub. This tool leverages `yt_dlp` to facilitate downloading videos from Pornhub seamlessly. It also uses `tkinter` and `customtkinter` to provide a graphical user interface.
 
 ## Features
 - Download videos from Pornhub
@@ -8,60 +8,60 @@ Phly is a simple and efficient downloader for Pornhub. This tool leverages `yt_d
 - Fast and reliable downloads
 
 ## Requirements
-To use Phly, you need to have `yt_dlp` and `youtube_dl` installed on your system. Follow the instructions below to install them.
+To use Phly, you need to have the following Python packages installed:
 
-## Installation
+- `yt_dlp`
+- `customtkinter`
 
-### yt_dlp
+Additionally, ensure you have `tkinter`, which is usually included with Python installations.
 
-1. **Using pip (Python's package installer):**
+### Installing Dependencies
+
+1. **Install `yt_dlp`:**
 
     ```bash
     pip install yt-dlp
     ```
 
-2. **Using Homebrew (macOS only):**
+2. **Install `customtkinter`:**
 
     ```bash
-    brew install yt-dlp
+    pip install customtkinter
     ```
 
-3. **Manual installation:**
+3. **`tkinter` is typically included with Python, but if it's not installed, you can follow [these instructions](https://tkdocs.com/tutorial/install.html) to install it.**
 
-    Download the latest release from the [yt-dlp GitHub repository](https://github.com/yt-dlp/yt-dlp/releases) and place the `yt-dlp` executable in a directory that is included in your system's PATH.
-
-### youtube_dl
-
-1. **Using pip (Python's package installer):**
-
-    ```bash
-    pip install youtube_dl
-    ```
-
-2. **Using Homebrew (macOS only):**
-
-    ```bash
-    brew install youtube-dl
-    ```
-
-3. **Manual installation:**
-
-    Download the latest release from the [youtube_dl GitHub repository](https://github.com/ytdl-org/youtube-dl/releases) and place the `youtube-dl` executable in a directory that is included in your system's PATH.
-
-## Usage
+## Installation
 
 1. Clone this repository:
 
     ```bash
     git clone https://github.com/phlydev/PHLY.git
-    cd phly
+    cd PHLY
     ```
 
-2. Run the downloader:
+2. Install the required Python packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    Create a `requirements.txt` file with the following content to specify dependencies:
+
+    ```
+    yt-dlp
+    customtkinter
+    ```
+
+## Usage
+
+1. Run the application:
 
     ```bash
     python phly.py
     ```
+
+2. The GUI will open, allowing you to enter the URL of the Pornhub video you want to download and select the download location.
 
 ## Contributing
 
@@ -70,7 +70,6 @@ Feel free to submit issues and suggestions to improve Phly.
 ## License
 
 Phly is provided under the following license:
-Phly - Pornhub Downloader
 
 Phly is free to use under the following conditions:
 
