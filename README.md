@@ -1,11 +1,14 @@
-# PHLY - Pornhub Downloader 🚀
+# PHLY - Versatile Video Downloader for Windows 🚀
 
-Phly is a simple and efficient downloader for Pornhub, exclusively for Windows. This tool leverages `yt_dlp` to facilitate seamless downloading of videos from Pornhub and uses `tkinter` and `customtkinter` to provide a graphical user interface.
+Phly is a versatile video downloader designed exclusively for Windows. It allows you to download videos from a wide range of platforms, including YouTube and Pornhub. With its intuitive and user-friendly interface, Phly makes saving your favorite videos quick and easy. Enjoy fast and reliable downloads with support for virtually any video source. Phly is continually updated and improved to ensure the best user experience possible.
+
+**Please note:** Phly will soon no longer be open source, so make sure to download it while you still can!
 
 ## Features ✨
-- Download videos from Pornhub
-- Simple and user-friendly interface
+- Download videos from various platforms including YouTube and Pornhub
+- Simple and intuitive interface
 - Fast and reliable downloads
+- Regular updates and improvements
 
 ## Requirements 🛠️
 To use Phly, you need to have the following Python packages installed:
@@ -61,7 +64,7 @@ Additionally, ensure you have `tkinter`, which is usually included with Python i
     python phly.py
     ```
 
-2. The GUI will open, allowing you to enter the URL of the Pornhub video you want to download and select the download location.
+2. The GUI will open, allowing you to enter the URL of the video you want to download and select the download location.
 
 ## Contributing 🤝
 
