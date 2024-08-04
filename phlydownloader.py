@@ -4,10 +4,20 @@ import yt_dlp as youtube_dl
 import tkinter as tk
 import customtkinter as ctk
 from tkinter import messagebox, filedialog, ttk
+import requests
 
 # Global variable to store URLs
 urls = []
 
+def check_for_updates():
+    """Check if an update is available by reading the content of the provided TXT URL."""
+    try:
+        response = requests.get("https://getphly.xyz/update/one.txt")
+        response.raise_for_status()
+        if response.text.strip().lower() == "true":
+            messagebox.showinfo("Update Available", "A new update is available.")
+    except Exception as e:
+        print(f"Failed to check for updates: {e}")
 
 def download_video(url, output_path, finish_callback, format_option):
     # Ensure the 'phly' directory inside the chosen output directory
@@ -172,6 +182,9 @@ ctk.set_default_color_theme("dark-blue")
 root = ctk.CTk()
 root.title("PHLY - Video Downloader")
 root.geometry("600x500")
+
+# Check for updates when the application starts
+check_for_updates()
 
 # Create and place the URL label and entry
 url_label = ctk.CTkLabel(root, text="Enter the URL of the video:")
