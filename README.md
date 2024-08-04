@@ -1,13 +1,13 @@
-# Phly - Pornhub Downloader
+# PHLY - Pornhub Downloader 🚀
 
-Phly is a simple and efficient downloader for Pornhub. This tool leverages `yt_dlp` to facilitate downloading videos from Pornhub seamlessly. It also uses `tkinter` and `customtkinter` to provide a graphical user interface.
+Phly is a simple and efficient downloader for Pornhub, exclusively for Windows. This tool leverages `yt_dlp` to facilitate seamless downloading of videos from Pornhub and uses `tkinter` and `customtkinter` to provide a graphical user interface.
 
-## Features
+## Features ✨
 - Download videos from Pornhub
 - Simple and user-friendly interface
 - Fast and reliable downloads
 
-## Requirements
+## Requirements 🛠️
 To use Phly, you need to have the following Python packages installed:
 
 - `yt_dlp`
@@ -31,7 +31,7 @@ Additionally, ensure you have `tkinter`, which is usually included with Python i
 
 3. **`tkinter` is typically included with Python, but if it's not installed, you can follow [these instructions](https://tkdocs.com/tutorial/install.html) to install it.**
 
-## Installation
+## Installation 🚀
 
 1. Clone this repository:
 
@@ -53,7 +53,7 @@ Additionally, ensure you have `tkinter`, which is usually included with Python i
     customtkinter
     ```
 
-## Usage
+## Usage 📥
 
 1. Run the application:
 
@@ -63,21 +63,23 @@ Additionally, ensure you have `tkinter`, which is usually included with Python i
 
 2. The GUI will open, allowing you to enter the URL of the Pornhub video you want to download and select the download location.
 
-## Contributing
+## Contributing 🤝
 
 Feel free to submit issues and suggestions to improve Phly.
 
-## License
-
-Phly is provided under the following license:
+## License 📜
 
 Phly is free to use under the following conditions:
 
-    You may use Phly for personal purposes only.
-    You are not permitted to modify, sell, or redistribute Phly in any form.
-    You may not claim Phly as your own work.
-    You may not incorporate any part of Phly into your own projects.
-    You are not allowed to remove or alter any copyright or proprietary notices from Phly.
-    You are not allowed to use Phly for any commercial purposes.
+- You may use Phly for personal purposes only.
+- You are not permitted to modify, sell, or redistribute Phly in any form.
+- You may not claim Phly as your own work.
+- You may not incorporate any part of Phly into your own projects.
+- You are not allowed to remove or alter any copyright or proprietary notices from Phly.
+- You are not allowed to use Phly for any commercial purposes.
 
 Any violation of these terms will result in revocation of your right to use Phly.
+
+---
+
+**Note:** This project will soon no longer be open source. Act now to take advantage of its availability!
