@@ -127,3 +127,4 @@ root.protocol("WM_DELETE_WINDOW", cleanup)
 
 # Run the installer application
 root.mainloop()
+# END
