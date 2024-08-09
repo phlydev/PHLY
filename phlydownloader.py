@@ -176,12 +176,21 @@ def open_settings():
 
 
 # Create the main window
+
+# Create the main window
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("dark-blue")
 
 root = ctk.CTk()
+
+# Set application icon (assuming phlylog.ico is in the same directory as the .exe)
+icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'phlylog.ico')
+if os.path.exists(icon_path):
+    root.iconbitmap(icon_path)
+
 root.title("PHLY - Video Downloader")
 root.geometry("600x500")
+
 
 # Check for updates when the application starts
 check_for_updates()
